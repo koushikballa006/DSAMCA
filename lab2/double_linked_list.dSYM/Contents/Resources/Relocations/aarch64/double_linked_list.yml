@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/koushik/Desktop/2trimester/dsa/labprograms/lab2/double_linked_list'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z14initializeListv, symObjAddr: 0x0, symBinAddr: 0x1000035B8, symSize: 0x8 }
+  - { offsetInCU: 0xAB, offset: 0xAB, size: 0x8, addend: 0x0, symName: __Z14initializeListv, symObjAddr: 0x0, symBinAddr: 0x1000035B8, symSize: 0x8 }
+  - { offsetInCU: 0xC8, offset: 0xC8, size: 0x8, addend: 0x0, symName: __Z17insertAtBeginningP3PetiPcS1_i, symObjAddr: 0x8, symBinAddr: 0x1000035C0, symSize: 0xAC }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: __Z11insertAtEndP3PetiPcS1_i, symObjAddr: 0xB4, symBinAddr: 0x10000366C, symSize: 0xFC }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: __Z10deleteNodeP3Peti, symObjAddr: 0x1B0, symBinAddr: 0x100003768, symSize: 0x180 }
+  - { offsetInCU: 0x21E, offset: 0x21E, size: 0x8, addend: 0x0, symName: __Z10searchByIDP3Peti, symObjAddr: 0x330, symBinAddr: 0x1000038E8, symSize: 0x78 }
+  - { offsetInCU: 0x266, offset: 0x266, size: 0x8, addend: 0x0, symName: __Z11displayListP3Pet, symObjAddr: 0x3A8, symBinAddr: 0x100003960, symSize: 0x94 }
+  - { offsetInCU: 0x29C, offset: 0x29C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x43C, symBinAddr: 0x1000039F4, symSize: 0x398 }
+...
